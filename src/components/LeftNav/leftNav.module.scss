@@ -1,0 +1,16 @@
+@import "./../../scss/variables";
+
+.left_nav {
+    transition: 0.7s all ease-in-out;
+    display: flex;
+    flex-direction: column;
+    min-width: $left_nav_width;
+    height: $left_nav_height;
+    border-right: $border_width solid $border_color;
+    position: fixed;
+    margin-top: $top_nav_height;
+    @media only screen and (max-width: $reponsive_width) {
+        transition: 0.7s all ease-in-out;
+        margin-left: (-1 * $left_nav_width);
+    }
+}

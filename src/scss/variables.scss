@@ -1,0 +1,17 @@
+//import statement
+//@import "./../../scss/variables";
+
+//colors
+$border_color: rgb(224, 222, 222);
+$accent_color: #ff6600;
+
+//dimensions
+$border_width: 0.1rem;
+$top_nav_height: 5.5vh;
+$left_nav_height: (100vh-$top_nav_height);
+$left_nav_width: 18rem;
+$content_container_height: (100vh-$top_nav_height);
+$reponsive_width: 1200px;
+
+//font
+$font: "Montserrat", sans-serif;
